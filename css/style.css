@@ -39,8 +39,14 @@ body {
   font-size: 17px;
   transition: all 0.3s;
 }
+p{
+  width: 480px;
+}
 @media (max-width: 768px) {
   .body-quotes {
     width: 250px;
+  }
+  p{
+    width: 100%;
   }
 }
